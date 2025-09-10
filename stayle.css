@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #0e1626;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.credit {
+  color: #ff5e7e;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+thead {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+thead th {
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+  color: #82aaff;
+  font-size: 18px;
+}
+
+tbody td {
+  padding: 15px;
+  color: #ddd;
+  background-color: rgba(255, 255, 255, 0.03);
+  transition: background 0.3s ease;
+}
+
+tbody tr td {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.site {
+  font-weight: bold;
+}
+
+.google { color: #f44336; }
+.twitter { color: #f44336; ; }
+.amazon { color: #f44336; ; }
+.linkedin { color: #f44336; ; }
+.codepen { color: #f44336; ; }
+.github { color: #f44336;  }
+
+.highlight {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px;
+}
